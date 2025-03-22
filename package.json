@@ -1,11 +1,20 @@
 {
+  "name": "your-app-name",
+  "version": "1.0.0",
+  "description": "Your application description",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js", 
+    "dev": "nodemon server/server.js" 
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
-    "pg": "^8.14.1",
-    "pg-hstore": "^2.3.4",
-    "react-router-dom": "^7.4.0",
-    "sequelize": "^6.37.6"
+    "mongoose": "^8.0.3",
+    "react-router-dom": "^7.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0" 
   }
 }
